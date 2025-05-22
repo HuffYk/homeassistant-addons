@@ -1,0 +1,18 @@
+name: 'ioBroker'
+version: '1.0.0'
+slug: iobroker
+description: Smart home platform for the Internet of Things
+url: 'https://github.com/HuffYk/homeassistant-addons/tree/main/ioBroker'
+arch:
+  - amd64
+  - armv7
+init: false
+webui: 'http://[HOST]:[PORT:8081]/'
+ingress_port: 8081
+panel_icon: 'mdi:iobroker'
+ports:
+  8081/tcp: 8081
+ports_description:
+  8081/tcp: 'Admin interface'
+stage: 'experimental'
+image: 'ghcr.io/huffyk/homeassistant-addon-iobroker-{arch}'

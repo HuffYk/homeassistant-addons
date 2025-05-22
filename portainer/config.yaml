@@ -1,0 +1,26 @@
+name: "Portainer"
+version: "1.0.0"
+slug: portainer
+description: Universal container management platform
+url: "https://github.com/HuffYk/homeassistant-addons/tree/main/portainer"
+arch:
+  - amd64
+  - armv7
+  - aarch64
+  - armhf
+init: false
+startup: services
+ingress: true
+ingress_port: 9000
+panel_icon: "mdi:docker"
+ports:
+  8000/tcp: 8000
+  9000/tcp: 9000
+ports_description:
+  8000/tcp: "Edge agents"
+  9000/tcp: "Admin interface"
+stage: "experimental"
+image: "ghcr.io/huffyk/homeassistant-addon-portainer-{arch}"
+docker_api: true
+map:
+  - type: ssl
