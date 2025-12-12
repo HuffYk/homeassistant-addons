@@ -7,7 +7,6 @@ arch:
   - amd64
   - armv7
   - aarch64
-  - armhf
 init: false
 startup: services
 ingress: true
