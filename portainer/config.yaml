@@ -8,7 +8,7 @@ arch:
   - aarch64
 init: false
 startup: services
-ingress: true
+ingress: false
 ingress_port: 9000
 webui: 'http://[HOST]:[PORT:9000]/'
 panel_icon: "mdi:docker"
