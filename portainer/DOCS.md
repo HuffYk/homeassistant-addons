@@ -1,4 +1,4 @@
-# Home Assistant Add-on: ioBroker
+# Home Assistant Add-on: Portainer
 Universal container management platform
 
 ## How to use
