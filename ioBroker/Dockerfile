@@ -3,7 +3,7 @@ FROM debian:bookworm-slim
 ENV DEBIAN_FRONTEND="noninteractive"
 
 # Configure settings
-ENV NODE="20"
+ENV NODE="22"
 
 # Copy files
 COPY scripts /opt/scripts

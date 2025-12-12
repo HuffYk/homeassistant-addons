@@ -1,5 +1,5 @@
 name: 'ioBroker'
-version: '1.0.0'
+version: '1.0.1'
 slug: iobroker
 description: Smart home platform for the Internet of Things
 url: 'https://github.com/HuffYk/homeassistant-addons/tree/main/ioBroker'
