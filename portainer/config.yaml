@@ -5,7 +5,6 @@ description: Universal container management platform
 url: "https://github.com/HuffYk/homeassistant-addons/tree/main/portainer"
 arch:
   - amd64
-  - armv7
   - aarch64
 init: false
 startup: services

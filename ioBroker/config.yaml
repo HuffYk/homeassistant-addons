@@ -5,7 +5,6 @@ description: Smart home platform for the Internet of Things
 url: 'https://github.com/HuffYk/homeassistant-addons/tree/main/ioBroker'
 arch:
   - amd64
-  - armv7
 init: false
 webui: 'http://[HOST]:[PORT:8081]/'
 ingress_port: 8081
