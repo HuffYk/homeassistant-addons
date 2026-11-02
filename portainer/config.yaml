@@ -1,5 +1,5 @@
 name: "Portainer"
-version: "1.0.1"
+version: "1.0.2"
 slug: portainer
 description: Universal container management platform
 url: "https://github.com/HuffYk/homeassistant-addons/tree/main/portainer"
